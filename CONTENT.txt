@@ -1,0 +1,62 @@
+HTML Basics
+1.	HTML
+2.	Editors
+3.	Tags
+4.	Attributes
+5.	Elements
+6.	Comments
+7.	Headings
+8.	Paragraphs
+9.	Text Formatting
+10.	Quotations
+11.	Links
+12.	List
+13.	Tables
+14.	Images
+15.	Styles
+16.	Colors
+17.	CSS
+18.	Block and Inline
+19.	Classes
+20.	Id
+21.	Iframes
+22.	JavaScript
+23.	File Paths
+24.	Head
+25.	Layout
+26.	Responsive
+27.	Computercode
+28.	Semantics
+29.	Style Guide
+30.	Entities
+31.	Symbols
+32.	Emojis
+33.	Charset
+34.	URL Encode
+35.	HTML and XHTML
+
+HTML Forms
+1.	Forms
+2.	Form Attributes
+3.	Form Element
+4.	Input Types
+5.	Input Attributes
+6.	Input Form Attributes
+
+HTML Graphics
+1.	Canvas
+2.	SVG
+
+HTML Media
+1.	Media
+2.	Audio
+3.	Video
+4.	Plug-ins
+5.	YouTube
+
+HTML APIs
+1.	Geolocation
+2.	Drag and Drop
+3.	Web Storage
+4.	Web Workers
+5.	SSE
