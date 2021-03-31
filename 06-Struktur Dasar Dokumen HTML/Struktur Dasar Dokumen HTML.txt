@@ -1,0 +1,31 @@
+Catatan:
+
+Struktur Dasar Dokumen HTML
+
+...
+
+Contoh:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <!-- Konten -->
+    </body>
+</html>
+
+
+Keterangan:
+
+<!DOCTYPE html>
+<html></html>
+<head></head>
+<title></title>
+<body></body>
+
+Referensi:
+
+1.  https://www.duniailkom.com/belajar-html-mengenal
+    -struktur-dasar-html/
