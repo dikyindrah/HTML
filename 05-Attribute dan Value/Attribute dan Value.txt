@@ -1,0 +1,30 @@
+Catatan:
+
+Attribute dan Value
+
+Attribute adalah sifat yang bisa kita berikan kedalam 
+tag pembuka dan value adalah nilai yang kita berikan pada
+suatu Attribute. Attribute dan value berguna untuk memberi
+informasi tambahan pada suatu elemen, contohnya seperti
+memberi gaya pada konten, mengatur ukuran konten, dll.
+
+<tag Attribute="Value"> ...konten... </tag>
+
+Misalnya jika kita ingin membuat judul pada artikel berada 
+di tengah-tengah dokumen, Maka kita perlu menambahkan 
+attribute align dengan value center pada tag heading.
+
+Contoh:
+
+<h1 align="center">Belajar HTML</h1>
+
+Hasilnya adalah teks judul "Belajar HTML" akan tampil
+di tengah-tengah dokumen.
+
+
+Referensi:
+
+1.  https://www.pilotbean.com/resources/elements
+    -tags-attributes-and-values/
+2.  https://adjibayuanggara.wordpress.com/2014/03/
+    20/pengertian-istilah-atribut-tag-dan-value-dalam-html/
