@@ -1,0 +1,26 @@
+Catatan:
+
+Source-code Editor 
+
+Source-code Editor adalah program editor teks yang dirancang 
+khusus untuk mengedit kode sumber program komputer. Ini mungkin 
+aplikasi mandiri atau mungkin dibangun ke dalam lingkungan 
+pengembangan terintegrasi (IDE) atau browser web. Source-code 
+Editor adalah alat pemrograman dasar, karena tugas dasar 
+programmer adalah menulis dan mengedit kode sumber. Source-code 
+Editor memiliki fitur yang dirancang khusus untuk menyederhanakan 
+dan mempercepat pengetikan kode sumber, seperti fungsi syntax 
+highlighting, indentation, autocomplete, dan pencocokan tanda 
+kurung. Editor ini juga menyediakan cara mudah untuk menjalankan 
+kompiler, interpreter, debugger, atau program lain yang relevan 
+untuk proses pengembangan perangkat lunak. Jadi, meskipun banyak 
+editor teks seperti Notepad dapat digunakan untuk mengedit kode 
+sumber, jika mereka tidak menyempurnakan, mengotomatiskan, atau 
+memudahkan pengeditan kode, mereka bukanlah Source-code Editor. 
+
+Contoh: Visual Studio Code, Atom, Sublime Text, dan Notepad++.
+
+
+Referensi:
+
+1.  https://en.wikipedia.org/wiki/Source-code_editor
