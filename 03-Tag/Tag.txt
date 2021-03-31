@@ -1,0 +1,83 @@
+Catatan:
+
+Tag 
+
+Tag adalah instruksi yang kita gunakan untuk memformat 
+konten (tulisan, gambar, link, tabel, dll.) yang ada di 
+dalam dokumen HTML. Instruksi ini kita tulis dalam bentuk 
+tanda berpasangan yang terdiri dari tag pembuka dan tag
+penutup, tujuanya untuk memberi tahu browser dimana posisi 
+awal dan posisi akhir sebuah format dokumen. 
+
+Contoh:
+
+<tag pembuka> ...konten... </tag penutup>
+
+
+Misal untuk membuat suatu paragraf kita perlu membungkus 
+sejumlah kalimat didalam tag <p><p/>, dimana tag <p> 
+mendefinisikan awal paragraf dan tag </p> mendefinisikan 
+akhir paragraf.
+
+Contoh:
+
+<p>Ini adalah sebuah paragraf<p/>
+
+
+Secara umum tag yang kita tulis selalu berpasangan antara
+tag pembuka dan taga penutup, namun sebenarnya ada tag lain
+yang hanya ditulis dengan tag pembuka saja contohnya seperti
+tag <img> untuk menampilkan gambar.
+
+Contoh:
+
+<img src="gambar.jpg">
+
+
+Tag digunakan untuk menunjukkan apa yang harus ditampilkan 
+di halaman situs saat halaman situs tersebut dimuat. 
+Misalnya, untuk membuat tabel di halaman Web, tag <tabel> 
+digunakan. Data yang harus ada di dalam tabel mengikuti 
+tag <table>, dan tabel ditutup dengan tag </table>.
+
+Jika kita ingin sesuatu muncul dengan huruf tebal di 
+halaman Web, maka kita akan menggunakan tag tebal. 
+
+Contoh:
+
+Situs ini adalah <b>situs web terbaik</b> yang pernah 
+ada!
+
+Hasilnya adalah teks "Situs ini adalah situs web terbaik 
+yang pernah ada!" dengan kata "situs web terbaik" bercetak
+tebal.
+
+Tag digunakan pada bahasa markup hypertext seperti HTML, 
+XHTML, XML, dan bahsa markup hypertext lainnya.
+
+Karena sering kali ada kebutuhan untuk memformat konten 
+dalam tag yang lebih umum, tag dapat "bersarang", yang 
+berarti satu tag dapat menyertakan satu atau lebih tag 
+lainnya. Sebagai contoh:
+
+<span style = "font-family: Times">Ini adalah font Times, 
+dan <i> ini dicetak miring </i>. <font>Cukup mengasyikkan, 
+ya?</font></span>
+
+akan menjadi seperti ini : 
+Ini adalah font Times, dan ini dicetak miring. Cukup 
+mengasyikkan, ya?
+
+Tag adalah bagian fundamental dari HTML dan cukup mudah 
+dipahami. Jika kita ingin membangun situs Web kita sendiri, 
+kita dapat membuatnya dari awal (menggunakan souce-code 
+editor dan mengetik tag sendiri) atau dapat menggunakan 
+program tata letak seperti Macromedia Dreamweaver, yang 
+akan membuatkan tag untuk kita.
+
+
+Referensi:
+
+1.  https://techterms.com/definition/tag
+2.  https://adjibayuanggara.wordpress.com/2014/03/20/
+    pengertian-istilah-atribut-tag-dan-value-dalam-html/
