@@ -1,0 +1,172 @@
+Catatan:
+
+HTML
+
+Singkatan dari "Hypertext Markup Language." HTML adalah bahasa 
+markup yang diciptakan pada tahun 90-an oleh Tim Berners-Lee di
+CERN (Organisasi Eropa untuk Riset Nuklir).
+
+HTML diciptakan untuk membuat halaman web. "Hypertext" mengacu 
+pada hyperlink yang mungkin terdapat dalam halaman HTML dan
+"Markup Language" mengacu pada bahasa komputer yang menggunakan 
+tag untuk mendefinisikan elemen di dalam dokumen.
+
+Di bawah ini adalah contoh kode HTML yang digunakan untuk 
+mendefinisikan halaman web dasar dengan paragraf dan judul. 
+
+Contoh:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Belajar HTML</title>
+    </head>
+    <body>
+        <p>Saya sedang belajar HTML</p>
+    </body>
+</html>
+
+Baris pertama menentukan jenis konten yang dikandung dokumen. 
+"<!doctype html> " berarti halaman tersebut ditulis dalam HTML5. 
+Halaman HTML yang diformat dengan benar harus menyertakan tag 
+<html>, <head>, dan <body> yang semuanya termasuk dalam contoh di 
+atas. Judul halaman, metadata, dan link ke file yang direferensikan 
+ditempatkan di antara tag <head>. Konten halaman yang sebenarnya 
+berada di antara tag <body>.
+
+Web telah melalui banyak perubahan selama beberapa dekade terakhir, 
+tetapi HTML selalu menjadi bahasa dasar yang digunakan untuk 
+mengembangkan halaman Web. Menariknya, sementara situs web menjadi 
+lebih maju dan interaktif, HTML sebenarnya menjadi lebih sederhana. 
+Jika Anda membandingkan sumber halaman HTML5 dengan halaman serupa 
+yang ditulis dalam HTML 4.01 atau XHTML 1.0, halaman HTML5 mungkin 
+berisi lebih sedikit kode. Ini karena HTML modern mengandalkan 
+cascading style sheets atau JavaScript untuk memformat hampir semua 
+elemen dalam halaman.
+
+
+Sejarah HTML
+
+HTML adalah bahasa markup yang sangat berkembang dan telah 
+berevolusi dengan berbagai versi yang diperbarui. Jauh sebelum 
+standar dan spesifikasinya yang direvisi diterapkan, setiap versi 
+telah memungkinkan penggunanya untuk membuat halaman web dengan 
+cara yang lebih mudah dan lebih cantik serta membuat situs menjadi 
+sangat efisien.
+
+Berikut versi HTML yang telah di resmikan oleh World Wide Web 
+Consortium (W3C) sebagai bahasa standar untuk membuat halaman
+web:
+
+    [-] HTML v1.0  - 1991
+    [-] HTML v2.0  - 1995
+    [-] HTML v3.2  - 1997
+    [-] HTML v4.0  - 1997
+    [-] HTML v4.01 - 1999
+    [-] XHTML v1.0 - 2000
+    [-] XHTML v1.1 - 2001
+    [-] HTML v5.0  - 2014
+    [-] HTML v5.1  - 2016
+    [-] HTML v5.2  - 2017
+
+
+XHTML
+
+XHTML merupakan singkatan dari eXtensible HyperText Markup 
+Language. XHTML merupakan bentuk reformulasi dari HTML 
+menggunakan paradigma XML.
+
+Di bawah ini adalah contoh kode XHTML yang digunakan untuk 
+mendefinisikan halaman web dasar dengan paragraf dan judul. 
+
+Contoh:
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Belajar HTML</title>
+</head>
+<body>
+    <p>Saya sedang belajar HTML</p>
+</body>
+</html> 
+
+XHTML adalah bahasa markup penerus dan pengembangan dari HTML 
+yang memiliki kemampuan yang kurang lebih mirip seperti HTML, 
+tetapi dengan aturan sintaks yang lebih ketat. HTML merupakan 
+aplikasi dari SGML (Standard Generalized Markup Language) yang 
+sangat fleksibel, sedangkan XHTML adalah aplikasi dari XML, 
+turunan SGML yang lebih terbatas.
+
+Karena XHTML harus memiliki keteraturan-bentuk (mengikuti 
+sintaks yang tepat), dokumen XHTML dapat diproses otomatis 
+dengan menggunakan standar pemroses XML - tidak seperti HTML 
+yang membutuhkan pemroses yang cukup sulit dan kompleks. XHTML 
+dapat dianggap sebagai perpaduan antara HTML dan XML karena 
+merupakan formulasi ulang HTML dalam bentuk XML. XHTML 1.0 
+telah menjadi rekomendasi W3C atau World Wide Web Consortium 
+pada 26 Januari 2000.
+
+Dari 2001 hingga sekitar 2011, XHTML adalah bahasa markup 
+standar untuk pengembangan web. Beberapa pengembang menggunakan 
+DTD XHTML yang ketat, meskipun kebanyakan menggunakan doctype 
+transisi. Karena sebagian besar pengembang web lebih menyukai 
+bahasa yang lebih fleksibel, web akhirnya dialihkan kembali ke 
+HTML. Pada tahun 2014, HTML5 secara resmi direkomendasikan oleh 
+W3C. Sebagian besar browser modern masih mendukung HTML dan 
+XHTML.
+
+
+HTML5
+
+HTML5 adalah standar utama kelima dari HTML. Pengembangan 
+standar dimulai pada 2007 dan situs web HTML5 mulai menjadi 
+arus utama pada 2010. Standar HTML5 final secara resmi 
+distandarisasi oleh W3C pada 28 Oktober 2014.
+
+Standar HTML sebelumnya, HTML 4.01, distandarisasi pada tahun 
+1999 - lima belas tahun sebelum standar HTML5 diterbitkan. 
+Namun, pada dekade sebelum HTML5, sebagian besar situs web 
+dibuat dalam XHTML, versi HTML yang lebih ketat yang 
+diterbitkan pada tahun 2000. HTML5 dirancang untuk menggantikan 
+HTML 4 dan XHTML dengan menyediakan standar yang lebih 
+sederhana kepada pengembang web yang mencakup beberapa fitur 
+baru untuk web modern.
+
+Tabel di bawah ini menyertakan daftar elemen baru, atau tag, 
+yang diperkenalkan di HTML5 yang digunakan untuk menentukan 
+struktur dokumen.
+
+Tag     	Deskripsi
+============================================================
+<header> 	Mendefinisikan header halaman web
+<footer> 	Mendefinisikan footer halaman
+<nav> 	    Mendefinisikan bilah navigasi
+<main>   	Mendefinisikan konten utama halaman web
+<artikel> 	Mendefinisikan sebuah artikel dalam sebuah halaman
+<section> 	Mendefinisikan bagian dari dokumen atau artikel
+<aside> 	Mendefinisikan konten di luar konten utama halaman
+
+Tag ini menyederhanakan struktur kode HTML dan CSS yang kita 
+buat. Misalnya, untuk menentukan elemen navigasi dalam XHTML, 
+kita biasanya akan menulis "<div class ="nav"> di halaman HTML 
+dan menentukan kelas yang disebut ".nav" di CSS. Di HTML5, kita 
+cukup memasukkan <nav> di HTML dan memberi gaya pada elemen itu 
+sendiri menggunakan CSS.
+
+HTML5 juga menyertakan beberapa tag baru lainnya. Contohnya 
+termasuk <canvas> dan <svg> untuk grafik dan <audio> dan <video> 
+untuk elemen multimedia. Tag ini memberikan kemampuan baru bagi 
+pengembang web, meskipun penting untuk dicatat bahwa HTML5 masih 
+sangat bergantung pada CSS dan JavaScript untuk gaya halaman, 
+animasi, dan interaksi pengguna. Oleh karena itu, sebagian besar 
+situs web HTML5 interaktif dibuat menggunakan kombinasi HTML5, 
+CSS3, dan JavaScript atau jQuery.
+
+
+Referensi:
+
+1.  https://techterms.com/definition/html
+2.  https://en.wikipedia.org/wiki/HTML
+3.  https://www.w3schools.com/html/html_xhtml.asp
