@@ -2,7 +2,22 @@ Catatan:
 
 Struktur Dasar Dokumen HTML
 
-...
+Struktur Dasar Dokumen HTML adalah bagian-bagian yang harus 
+kita definisikan saat membuat dokumen HTML. Setiap halaman
+web yang ditulis dengan HTML pasti memiliki struktur dasar
+yang terdiri dari tag, atribut, dan elemen untuk mengatur
+seluruh informasi yang akan ditampilkan di browser. Namun
+sebenarnya meski kita tidak mendefinisikan struktur tersebut
+browser masih dapat membaca dan menampilkan informasi yang 
+kita berikan, tetapi kemungkinan besar informasi yang di
+tampilkan tidak sesuai dengan seperti apa yang kita bayangkan.
+
+Agar browser dapat membaca dan menampilkan sebuah dokumen 
+HTML dengan baik, maka di butuhkan struktur dasar yang 
+masing-masing bagian memiliki fungsi yang berbeda-beda
+
+Setiap halaman yang ditulis menggunakan HTML5, Setidaknya
+harus memiliki struktur berikut:
 
 Contoh:
 
@@ -20,12 +35,44 @@ Contoh:
 Keterangan:
 
 <!DOCTYPE html>
+
+Bagian ini sering disebut DTD (Document Type Declaration).  
+Ini digunakan untuk mendefinisikan jenis dokumen yang akan 
+ditulis dan juga memberitahu versi HTML yang sedang digunakan. 
+Saat ini kita sedang menggunakan HTML5.
+
 <html></html>
+
+Bagian ini sering disebut elemen root, Bagian ini digunakan
+untuk mendefinisikan awal dan akhir dari dokumen HTML yang 
+kita buat. Seluruh informasi mulai dari informasi dokumen dan
+informasi konten ditulis didalam bagian ini.
+
 <head></head>
+
+Bagian ini digunakan untuk mendefinisikan seluruh informasi 
+mengenai dokumen HTML seperti judul halaman, metadata, file 
+css, dll. Sejumlah elemen yang bisa digunakan didalam bagian 
+ini diantaranya:
+
+[-] <style>    [-] <noscript>    [-] <link>
+[-] <title>    [-] <script>
+[-] <base>     [-] <meta>
+
 <title></title>
+
+Bagian ini digunakan untuk mendefinisikan judul halaman yang 
+akan ditampilkan pada bagian ditas atau tab browser. 
+
 <body></body>
+
+Bagian ini digunakan untuk mendefinisikan seluruh informasi
+yang akan ditampilkan pada halaman web.
+
 
 Referensi:
 
 1.  https://www.duniailkom.com/belajar-html-mengenal
     -struktur-dasar-html/
+2.  https://bahasaweb.com/tutorial-dasar-html-struktur
+    -dasar-html/
