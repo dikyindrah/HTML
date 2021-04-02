@@ -1,0 +1,27 @@
+Comment
+
+Comment atau jika dalam bahasa indonesia disebut komentar
+adalah tanda yang kita berikan pada kode program di suatu
+baris untuk menjelaskan, memberikan keterangan, mendeskripsikan 
+tentang kode program yang ditulis, dan memberikan dokumentasi.
+
+Komentar juga bisa kita gunakan untuk menonaktifkan tag pada 
+satu atau beberapa baris sekaligus agar tag tersebut tidak 
+dibaca dan dieksekusi oleh browser.
+
+Untuk membuat komentar pada HTML5 kita hanya perlu menulis 
+sesuatu didalam pasangan tanda <!-- --> atau dengan mengarahkan 
+pointer pada suatu baris dan menekan kombinasi tombol ctrl + /
+
+Contoh:
+
+<!DOCTYPE html>
+<head>
+    <title>Comment</title>
+</head>
+<body>
+    <!-- Dibawah ini adalah tag untuk mendefinisikan paragraf -->
+    <p>Ini adalah sebuah paragraf</p> 
+    
+    <!-- <p>Ini adalah tag yang di nonaktifkan dengan komentar</p>  -->
+</body>
