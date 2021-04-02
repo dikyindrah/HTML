@@ -1,0 +1,35 @@
+Headings
+
+Headings adalah judul yang akan ditampilkan pada halaman web.
+Headings secara umum digunakan untuk memberi judul pada artikel 
+atau paragarf.
+
+Headings memiliki 6 tingkatan dengan ukuran teks yang berbeda-
+beda, Ukuran teks yang paling besar adalah headings dengan 
+tingkatan nomor paling kecil dan headings dengan ukuran teks 
+yang paling kecil adalah headings dengan tingkatan nomor paling 
+besar.
+
+Contoh:
+
+<!-- Headings -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Headings</title>
+    </head>
+    <body>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+    </body>
+</html>
+
+
+Biasanya h1 hanya digunakan satu kali pada halaman web sebagai judul
+utama dan h2, h3, ... h6 bisa digunakan beberapa kali sebagai sub
+judul.
+
