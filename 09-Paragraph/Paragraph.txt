@@ -1,0 +1,160 @@
+Paragraph
+
+Paragraph atau jika dalam bahasa indonesia disebut paragraf
+adalah serangkaian kalimat yang saling berkaitan satu sama 
+lain. Pada HTML5 paragraf selalu dimulai pada baris baru, dan 
+jika kita mendefinisikan lebih dari satu paragraf pada dokumen 
+HTML5 kita maka browser secara otomatis menambahkan beberapa 
+spasi (margin) sebelum dan sesudah paragraf untuk mengatur 
+jarak antar paragraf.
+
+Untuk membuat paragraf di HTML5 kita hanya perlu menuliskan
+sejumlah kalimat kedalam tag <p></p>.
+
+Contoh:
+
+<!-- Paragraph -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Paragraph</title>
+    </head>
+    <body>
+        <h1>Paragraf</h1>
+
+        <!-- Paragraf pertama -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+            elit. Sapiente officiis, inventore est facilis architecto 
+            neque laudantium dicta quod. Soluta nihil, rerum architecto 
+            non impedit ipsum unde officia doloremque alias quaerat.</p>
+        
+        <!-- Paragraf kedua -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+            elit. Sapiente officiis, inventore est facilis architecto 
+            neque laudantium dicta quod. Soluta nihil, rerum architecto 
+            non impedit ipsum unde officia doloremque alias quaerat.</p>
+        
+        <!-- Paragraf ketiga -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+            elit. Sapiente officiis, inventore est facilis architecto 
+            neque laudantium dicta quod. Soluta nihil, rerum architecto 
+            non impedit ipsum unde officia doloremque alias quaerat.</p>
+    </body>
+</html>
+
+
+Selaian browser kita juga bisa memberikan jarak antar paragraf
+secara manual mengguakan tag <br>.
+
+Contoh:
+
+<!-- Paragraph -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Paragraph</title>
+    </head>
+    <body>
+        <h1>Paragraf</h1>
+        <!-- Paragraf pertama -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+            elit. Sapiente officiis, inventore est facilis architecto 
+            neque laudantium dicta quod. Soluta nihil, rerum architecto 
+            non impedit ipsum unde officia doloremque alias quaerat.</p>
+        <br><br><br>
+        <!-- Paragraf kedua -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+            elit. Sapiente officiis, inventore est facilis architecto 
+            neque laudantium dicta quod. Soluta nihil, rerum architecto 
+            non impedit ipsum unde officia doloremque alias quaerat.</p>
+        <br><br><br>
+        <!-- Paragraf ketiga -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+            elit. Sapiente officiis, inventore est facilis architecto 
+            neque laudantium dicta quod. Soluta nihil, rerum architecto 
+            non impedit ipsum unde officia doloremque alias quaerat.</p>
+    </body>
+</html>
+
+
+Kemudian kita juga bisa membuat garis horizontal untuk membatasi 
+setiap pargraf menggunakan tag <hr>.
+
+Contoh:
+
+<!-- Paragraph -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Paragraph</title>
+    </head>
+    <body>
+        <h1>Paragraf</h1>
+        <!-- Paragraf pertama -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+            elit. Sapiente officiis, inventore est facilis architecto 
+            neque laudantium dicta quod. Soluta nihil, rerum architecto 
+            non impedit ipsum unde officia doloremque alias quaerat.</p>
+        <!-- <br><br><br> -->
+        <hr>
+        <!-- Paragraf kedua -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+            elit. Sapiente officiis, inventore est facilis architecto 
+            neque laudantium dicta quod. Soluta nihil, rerum architecto 
+            non impedit ipsum unde officia doloremque alias quaerat.</p>
+        <!-- <br><br><br> -->
+        <hr>
+        <!-- Paragraf ketiga -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+            elit. Sapiente officiis, inventore est facilis architecto 
+            neque laudantium dicta quod. Soluta nihil, rerum architecto 
+            non impedit ipsum unde officia doloremque alias quaerat.</p>
+    </body>
+</html>
+
+
+Tag <p> membuat seluruh kalimat yang ada di dalamnya 
+diformat secara otomats sperti spasi dan jarak antar baris, 
+Namun sebenarnya kita juga bisa membuat format pada kalimat 
+tersebut sesuai dengan yang kita inginkan dengan tag <pre>.
+
+Contoh:
+
+<!-- Paragraph -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Paragraph</title>
+    </head>
+    <body>
+        <h1>Paragraf</h1>
+        <!-- Paragraf pertama -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+            elit. Sapiente officiis, inventore est facilis architecto 
+            neque laudantium dicta quod. Soluta nihil, rerum architecto 
+            non impedit ipsum unde officia doloremque alias quaerat.</p>
+        <!-- <br><br><br> -->
+        <hr>
+        <!-- Paragraf kedua -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+            elit. Sapiente officiis, inventore est facilis architecto 
+            neque laudantium dicta quod. Soluta nihil, rerum architecto 
+            non impedit ipsum unde officia doloremque alias quaerat.</p>
+        <!-- <br><br><br> -->
+        <hr>
+        <!-- Paragraf ketiga -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+            elit. Sapiente officiis, inventore est facilis architecto 
+            neque laudantium dicta quod. Soluta nihil, rerum architecto 
+            non impedit ipsum unde officia doloremque alias quaerat.</p>
+        <hr>
+        <!-- Paragraf keempat -->
+        <pre>
+            Ini adalah kalimat pertama
+            Ini adalah kalimat kedua
+            Ini adalah kalimat ketiga
+            Ini adalah kalimat keempat
+            Ini adalah kalimat kelima
+        </pre>
+    </body>
+</html>
