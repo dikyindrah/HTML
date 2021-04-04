@@ -1,0 +1,72 @@
+Catatan:
+
+Tables
+
+Tables atau dalam bahasa indonesia disebut tabel, adalah
+data yang disusun dalam baris dan kolom. Pada HTML5 untuk
+membuat tabel kita perlu mendefinisikan tabel dengan tag
+<table></table>, mendefinisikan baris dengan tag <tr></tr>
+, mendefinisikan nama kolom dengan tag <th></th>, dan 
+mendefinisikan data <td></td>.
+
+Contoh:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tables</title>
+    </head>
+    <body>
+        <!-- Mendefinisikan table -->
+        <table>
+            <!-- Mendefinisikan baris -->
+            <tr>
+                <!-- Mendefinisikan nama kolom -->
+                <th>No</th>
+                <th>Nama Barang</th>
+                <th>Harga</th>
+            </tr>
+            <tr>
+                <!-- Mendefiniskan data -->
+                <td>1</td>
+                <td>Pulpen</td>
+                <td>2500</td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+Kode html diatas mendefinisikan struktur tabel sederhana
+dengan 2 baris 3 kolom. Untuk mengatur bentuk tabel HTML, 
+kita bisa menggunakan beberapa atribut yang di sediakan
+seperti border untuk mengatur garis pada tabel, cellpadding
+untuk mengatur luas pada cell, dan cellspacing untuk 
+mengatur jarak antar cell.
+
+Contoh:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tables</title>
+    </head>
+    <body>
+        <!-- Mendefinisikan table -->
+        <table border="1px" cellpadding="3px" cellspacing="0">
+            <!-- Mendefinisikan baris -->
+            <tr>
+                <!-- Mendefinisikan nama kolom -->
+                <th>No</th>
+                <th>Nama Barang</th>
+                <th>Harga</th>
+            </tr>
+            <tr>
+                <!-- Mendefiniskan data -->
+                <td>1</td>
+                <td>Pulpen</td>
+                <td>2500</td>
+            </tr>
+        </table>
+    </body>
+</html>
+
