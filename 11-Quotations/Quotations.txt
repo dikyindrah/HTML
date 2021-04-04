@@ -1,0 +1,54 @@
+Catatan:
+
+Quotations
+
+Quotations atau dalam bahasa indonesia disebut kutipan, 
+adalah suatu kalimat yang berisi ide, pendapat atau gagasan 
+seseorang yang dianggap menarik dan diambil dari berbagai 
+sumber.
+
+Kalimat gagasan tersebut umunya diambil dari artikel, buku, 
+majalah, kamus, ensiklopedia, dan lain sebagainya. Kita tentunya 
+menggunakan kutipan untuk mengambil sumber referensi atau acuan 
+guna mendukung, memperkuat, menambah dan memperjelas tulisan 
+atau artikel kita.
+
+HTML telah menyediakan tag – tag yang bisa kita gunakan untuk 
+membuat sebuah kutipan.
+
+Contoh:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <!-- Mendefinisikan kutipan panjangs -->
+        <p>Ini adalah kutipan dari situs web Techterms</p>
+        <blockquote cite="https://techterms.com/definition/html">HTML Singkatan dari "Hypertext Markup Language". HTML adalah bahasa yang digunakan untuk membuat halaman web. "Hypertext" mengacu pada hyperlink yang mungkin terdapat dalam halaman HTML. "Bahasa markup" mengacu pada cara tag digunakan untuk menentukan tata letak halaman dan elemen di dalam halaman.</blockquote>
+        
+        <!-- Mendefinisikan kutipan singkat -->
+        <p>Menurut Onno W Purbo <q>Internet pada dasarnya adalah suatu media yang dipakai untuk mengefesiensikan proses komunikasi yang disambungkan lewat berbagai aplikasi semacam Web, VoIP, E-mail.</q></p>
+        
+        <!-- Mendefinisikan kependekan kata -->
+        <abbr title="Hypertext Markup Language">HTML</abbr>
+        
+        <!-- Mendefinisikan informasi penulis -->
+        <address>
+            Diky Indra Hermawanto<br>
+            Example.com<br>
+            Indonesia<br>
+        </address>
+        
+        <!-- Mendefinisikan judul karya seperti buku, puisi, lagu, dll. -->
+        <p><cite>Buku Sakti Pemrograman Web: HTML, CSS, PHP, MySQL & Javascript</cite> oleh Didik Setiawan</p>
+        
+        <!-- Mengganti arah teks -->
+        <!-- Kanan ke kiri -->
+        <bdo dir="rtl">Saya sedang belajar HTML</bdo>
+        <br>
+        <!-- Kiri ke kanan -->
+        <bdo dir="ltr">Saya sedang belajar HTML</bdo>
+    </body>
+</html>
