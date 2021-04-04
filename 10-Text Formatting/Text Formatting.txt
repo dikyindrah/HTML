@@ -1,0 +1,34 @@
+Catatan:
+
+Text Formatting
+
+Text Formatting adalah penambahan sentuhan pada teks untuk 
+membuat teks tersebut menjadi mudah dibaca, lebih menarik, 
+dan menambah arti.
+
+Teks dalam dokumen HTML dapat diformat secara khusus untuk 
+menunjukkan perbedaan dan penekanan terhadap isi serta maksud 
+dari teks tersebut. Perbedaan ditampilkan dalam bentuk huruf 
+tebal, miring, garis bawah, dan lain sebagainya.
+
+Contoh:
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Text Formatting</title>
+    </head>
+    <body>
+        <b>Ini Adalah teks bercetak tebal</b>
+        <strong>Ini adalah teks penting</strong>
+        <i>Ini adalah teks bercetak miring</i>
+        <em>Ini adalah teks bercetak miring</em>
+        <mark>Ini adalah teks bertanda</mark>
+        <small>Ini adalah teks yang lebih kecil</small>
+        <del>Ini adalah teks yang di coret</del>
+        <ins>Ini adalah teks dengan garis bawah</ins>
+        Ini adalah<sub>teks yang dibawah</sub>
+        Ini adalah<sup>teks yang diatas</sup>
+    </body>
+</html>
+
+
