@@ -1,0 +1,84 @@
+Catatan:
+
+Tabels Merging
+
+Tabels Merging atau dalam bahasa indonesia disebut
+penggabungan tabel, adalah cara yang digunakan untuk
+menggabungkan sejumlah cell pada tabel. Penggabungan
+cell ini bisa antar baris atau antar kolom.
+
+Pada HTML5 kita bisa melakukan Tabels Merging dengan
+atribut rowspan dan colspan. Rowspan digunakan untuk
+menggabungkan cell antar baris dan colspan digunakan
+untuk menggabungkan cell antar kolom. 
+
+Untuk menggunakannya kita hanya perlu menuliskan atribut 
+ini pada tag <th></th> atau <td></td> dengan value yang
+mendefinisikan jumlah baris atau kolom yang ingin di 
+gabungkan.
+
+Contoh:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table Merging</title>
+    </head>
+    <body>
+        <h3>Menggabungkan Baris</h3>
+        <table border="1px" cellpadding="10px" cellspacing="0px">
+            <tr>
+                <th rowspan="2">A</th>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th rowspan="2">B</th>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th rowspan="2">C</th>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+        </table>
+
+        <h3>Menggabungkan Kolom</h3>
+        <table border="1px" cellpadding="10px" cellspacing="0px">
+            <tr>
+                <th colspan="2">A</th>
+                <th colspan="2">B</th>
+                <th colspan="2">C</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>1</td>
+                <td>2</td>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+                <td>3</td>
+                <td>4</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+        </table>
+    </body>
+</html>
