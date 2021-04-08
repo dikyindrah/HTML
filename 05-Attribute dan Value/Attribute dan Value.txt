@@ -2,11 +2,23 @@ Catatan:
 
 Attribute dan Value
 
-Attribute adalah sifat yang bisa kita berikan kedalam 
-tag pembuka dan value adalah nilai yang kita berikan pada
-suatu Attribute. Attribute dan value berguna untuk memberi
-informasi tambahan pada suatu elemen, contohnya seperti
-memberi gaya pada konten, mengatur ukuran konten, dll.
+Attribute atau atribut adalah sifat yang bisa kita berikan 
+kedalam tag pembuka dan value adalah nilai yang kita berikan 
+pada suatu atribut. 
+
+Value yang kita berikan pada suatu atribut harus sesuai 
+dengan atribut yang sedang digunakan, misal jika kita 
+menggunakan atribut align untuk mengatur perataan pada
+suatu paragraf maka kita harus memberikan value yang 
+seuai dengan atribut align seperti left, right, dan center.
+
+Kemudian jika kita menggunakan atribut width dan height
+untuk mengatur ukuran gambar maka kita harus menggunakan
+value berupa angka.
+
+Attribute dan value berguna untuk memberi informasi 
+tambahan pada suatu elemen, contohnya seperti memberi gaya 
+pada konten, mengatur ukuran konten, dll.
 
 <tag Attribute="Value"> ...konten... </tag>
 
@@ -20,6 +32,14 @@ Contoh:
 
 Hasilnya adalah teks judul "Belajar HTML" akan tampil
 di tengah-tengah dokumen.
+
+Atribut sendiri memiliki dua jenis, yaitu atribut lokal dan 
+atribut global. Atribut lokal adalah atribut yang hanya bisa
+digunakan oleh satu elemen saja, salah satu contoh atribut ini 
+adalah atribut href untuk menghubungkan halaman. Kemudian 
+atribut global adalah atribut yang bisa digunakan oleh semua 
+elemen salah satu contoh atribut ini adalah atribut id untuk
+memberi tanda pada suatu elemen.
 
 
 Referensi:
