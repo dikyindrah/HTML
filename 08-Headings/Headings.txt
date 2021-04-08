@@ -10,6 +10,9 @@ tingkatan nomor paling kecil dan headings dengan ukuran teks
 yang paling kecil adalah headings dengan tingkatan nomor paling 
 besar.
 
+Untuk mendefinisikan headings kita hanya perlu menuliskan teks 
+di dalam tag <h1></h1> sampai <h6></h6>.
+
 Contoh:
 
 <!-- Headings -->
