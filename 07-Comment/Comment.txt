@@ -5,8 +5,8 @@ adalah tanda yang kita berikan pada kode program di suatu
 baris untuk menjelaskan, memberikan keterangan, mendeskripsikan 
 tentang kode program yang ditulis, dan memberikan dokumentasi.
 
-Komentar juga bisa kita gunakan untuk menonaktifkan tag pada 
-satu atau beberapa baris sekaligus agar tag tersebut tidak 
+Komentar juga bisa kita gunakan untuk menonaktifkan elemen pada 
+satu atau beberapa baris sekaligus agar elemen tersebut tidak 
 dibaca dan dieksekusi oleh browser.
 
 Untuk membuat komentar pada HTML5 kita hanya perlu menulis 
