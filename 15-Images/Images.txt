@@ -1,0 +1,86 @@
+Catatan
+
+Images
+
+Kita bisa menambahkan gambar pada dokumen html yang kita buat.
+Maksud dari kata menambahkan gambar ini bukan berarti file 
+gambar yang dimasukan kedalam file .html, tetapi kita memasukan
+sumber dari mana gambar tersebut berasal atau lokasi dimana gambar 
+tersebut (path) berada ke dalam dokumen html. Browser akan membaca 
+sumber atau lokasi gambar yang kita tambahkan kedalam dokumen html 
+dan menampilkanya.
+
+Untuk menambahkan gambar kedalam dokumen html kita bisa 
+menggunakan tag <img> dan atribut src dengan value lokasi gambar.
+
+Contoh:
+
+<img src="anime.jpg">
+
+Jika lokasi gambar masih satu direktori dengan file .html maka
+kita hanya perlu mengisi atribut src dengan value nama gambar 
+beserta format gambar saja, Tetapi jika file gambar berada pada 
+direktori yang berbeda, misal gambar tersebut berada pada sub 
+direktori dari direktori utama, maka kita perlu mendefinisikan 
+nama sub direktori dari gambar tersebut.
+
+Contoh:
+
+<img src="img/anime.jpg">
+
+<!-- atau -->
+
+<img src="../data/anime.jpg">
+
+
+tanda / digunakan untuk mengakses seluruh data yang ada didalam
+direktori lain, data ini bisa berupa sub direktori dan file.
+
+tanda .. digunakan untuk keluar dari direktori.
+
+
+Sumber atau lokasi gambar ini umumnya berada pada penyimpanan 
+komputer dan hosting, namun kita juga bisa mendefinisikan 
+gambar yang bersumber dari internet dengan menuliskan url
+gambar sebagai value atribut src.
+
+Contoh:
+
+<img src="https://c4.wallpaperflare.com/wallpaper/454/693/150/anime
+-that-time-i-got-reincarnated-as-a-slime-rimuru-tempest-hd-wallpaper
+-preview.jpg">
+
+
+Kita juga bisa menambahkan atribut lain untuk menambahkan 
+informasi dan mengatur ukuran gambar.
+
+Menambahkan Informasi Pada gambar
+
+Untuk menambahkan informasi pada gambar kita bisa menggunakan
+atribut alt dan title. 
+
+Atribut alt berfungsi untuk membarikan informasi jika kita salah 
+menulis lokasi gambar, nama gambar, atau kesalahan teknis lainya 
+yang membuat gambar tidak dapat dibaca dan di tampilkan oleh browser. 
+Informasi ini bisa berupa keterangan teks yang kita berikan sebagai 
+value atribut tersebut. 
+
+Atribut title digunakan untuk mendefinisikan nama gambar saat di
+tampilkan, hasil penggunaan atribut ini adalah teks yang tampil
+saat di sorot oleh kursor.
+
+Contoh:
+
+<img src="anime.jpg" alt="ini adalah gambar" title="anime.jpg">
+
+
+Mengatur Ukuran Gambar
+
+Untuk mengatur ukuran gambar, kita bisa menggunakan atribut width 
+dan height. Atribut width untuk mengatur lebar gambar dan atribut 
+height untuk mengatur tinggi gambar.
+
+Contoh:
+
+<img src="img/anime.jpg" width="100px" height="110px">
+
