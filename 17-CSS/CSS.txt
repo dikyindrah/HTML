@@ -1,0 +1,119 @@
+Catatan:
+
+CSS 
+
+CSS kependekan dari Cascading Style Sheets, ini merupakan 
+bahasa yang digunakan untuk memformat tampilan halaman web.
+Dengan CSS kita bisa mengatur huruf, ukuran huruf, warna,
+jarak antar elemen, bagaimana elemen diposisikan dan di
+tata, gambar latar belakang yang akan digunakan, tampilan
+untuk perangkat dan ukuran layar yang berbeda, dll.
+
+CSS dapat di tambahkan kedalam dokumen HTML dengan 3 cara:
+
+Inline      - Menggunakan atribut style didalam elemen HTML.
+Internal    - Menggunakan tag <Style></Style> pada elemen 
+              <head></head>.
+External    - Menggunakan tag <link> pada elemen <head></head>
+              untuk ditautkan ke file CSS yang terpisah.
+
+Cara yang paling umum untuk memformat tampilan halaman web
+adalah dengan membuat file CSS dan menuliskan kode secara 
+terpisah dari dokumen HTML (cara External). Namun cara 
+Inline dan Internal juga perlu kita pelajari agar menambah 
+pengetahuan kita.
+
+Inline
+
+Cara ini sering digunakan untuk memformat tampilan pada
+elemen HTML di suatu baris. Untuk menggunakan cara ini
+kita perlu menuliskan atribut style pada tag pembuka elemen.
+
+Contoh:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS</title>
+    </head>
+    <body style="background-color: aqua;">
+        <h1 style="font-family: Arial, Helvetica, sans-serif; color: blue;">Inline</h1>
+        <p style="font-family: Arial, Helvetica, sans-serif; font-size: large; color: blue;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, numquam! Id labore veritatis nam molestias fuga cumque molestiae, illo perspiciatis eum delectus, officia mollitia soluta?</p>
+    </body>
+</html>
+
+Internal
+
+Cara ini digunakan untuk memformat tampilan pada seluruh
+elemen yang ada pada halaman web. Untuk menggunakan cara 
+ini kita perlu mendefinisikan elemen <style> di dalam 
+elemen <head>.
+
+Contoh:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS</title>
+        <style>
+            h1 {
+                font-family: Arial, Helvetica, sans-serif;
+                color: maroon;
+            }
+            p {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: large;
+                color: maroon;
+            }
+            body {
+                background-color: powderblue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Internal</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, qui impedit. Tenetur eos eveniet, aut veritatis maxime odit, id exercitationem consectetur dignissimos, necessitatibus libero sapiente.</p>
+    </body>
+</html>
+
+External
+
+Cara ini digunakan untuk memformat tampilan pada seluruh
+elemen yang ada pada halaman web dengan file terpisah.
+Untuk menggunakan cara ini kita perlu membuat file .css
+dan menghubungkannya ke dokumen HTML. Untuk menghubungkan 
+file .css ke dokumen HTML kita bisa menggunakan tag
+<link>.
+
+File .html
+
+Contoh:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>External</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellendus, quos quasi aliquid iure autem corrupti cupiditate mollitia beatae dignissimos cumque doloribus iste laboriosam unde?</p>
+    </body>
+</html>
+
+file .css
+
+Contoh:
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: magenta;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: magenta;
+}
+body {
+    background-color: aliceblue;
+}
