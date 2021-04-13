@@ -1,0 +1,99 @@
+Catatan:
+
+Hyperlink
+
+Hyperlink adalah cara yang kita gunakan untuk menghubungkan
+suatu halaman situs dengan halaman situs lainya. Pada HTML 5
+untuk melakukan hal ini kita bisa mendefinisikan link 
+menggunakan tag <a></a> dengan atribut href dan value alamat
+situs yang ingin kita hubungkan. 
+
+Contoh:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hyperlink</title>
+    </head>
+    <body>
+        <a href="https://www.w3schools.com/html">Belajar HTML</a>
+    </body>
+</html>
+
+Terdapat dua jenis alamat situs yang bisa kita berikan sebagai
+value pada atribut href yaitu absolute url dan relative url.
+Absolute url mendefinisikan alamat secara lengkap yang kita 
+ambil dari situs lain di internet, ini sering juga disebut 
+sebagai external link. Relative url mendefinisikan alamat 
+atau lokasi file pada penyimpanan yang sama, ini sering 
+disebut sebagai internal link.
+
+Contoh:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hyperlink</title>
+    </head>
+    <body>
+        <h3>Absolute URL</h3>
+        <a href="https://www.w3schools.com/html">Belajar HTML</a><br><br>
+        
+        <h3>Relative URL</h3>
+        <a href="Page1.html">Halaman 1</a><br>
+        <a href="page/Page2.html">Halaman 2</a><br>
+        <a href="page/alt/Page3.html">Halaman 3</a><br><br>
+    </body>
+</html>
+
+Secara default ketika kita membuka suatu link yang berisi 
+halaman, maka dia akan terbuka pada jendela browser saat ini, 
+namun sebenarnya kita juga bisa menentukan apakah halaman 
+yang dituju, dibuka pada jendela browser saat ini atau pada 
+jendela baru. Kita hanya perlu menggunakan atribut target 
+dengan beberapa value yang bisa kita sesuaikan, beberapa 
+atribut diantaranya ada _self, _blank, _parent, dan _top.
+
+_self membuka halaman pada jendela saat ini. 
+_blank membuka halaman pada jendela baru.
+_parent membuka halaman pada jendela induk.
+_top membuka halaman pada seluruh badan jendela.
+
+Contoh:
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hyperlink</title>
+    </head>
+    <body>
+        <h3>Target</h3>
+        <a href="Page1.html" target="_self">Target Self</a><br>
+        <a href="Page1.html" target="_blank">Target Blank</a><br>
+        <a href="Page1.html" target="_parent">Target Parent</a><br>
+        <a href="Page1.html" target="_top">Target Top</a><br><br>
+    </body>
+</html>
+
+Selain itu kita juga bisa menambahkan link pada suatu gambar,
+kita hanya perlu membungkus tag <img> dengan tag <a></a>.
+
+Contoh:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hyperlink</title>
+    </head>
+    <body>
+        <h3>Hyperlink Dengan Gambar</h3>
+        <a href="page/Page2.html" target="_blank"><img src="img/anime.jpg" alt="anime.jpg" width="10%"></a>
+    </body>
+</html>
+
+
+Referensi:
+
+1.  https://stackoverflow.com/questions/18470097/difference
+    -between-self-top-and-parent-in-the-anchor-tag-target-attribute
+2.  https://www.duniailkom.com/belajar-html-cara-membuat-link-
+    di-html-tag-a/
