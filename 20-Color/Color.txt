@@ -1,0 +1,164 @@
+Catatan:
+
+Color
+
+Warna pada HTML dapat ditentukan dengan menggunakan 
+nama warna atau model warna seperti RGB, HEX, HSL, 
+RGBA, dan HSLA.
+
+
+Nama Warna
+
+Kita dapat menentukan warna dengan nama warna, HTML
+mendukung 140 nama warna standar.
+
+Contoh:
+
+
+<h1>Warna Berdasarkan Nama Nama</h1>
+<h3>Warna Pada Latar Belakang</h3>
+<h3 style="background-color: dodgerblue;">Judul Paragraf</h3>
+<p style="background-color: tomato;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aut, velit tenetur iusto iste distinctio?</p>
+        
+<h3>Warna Pada Teks</h3>
+<p style="color: chocolate;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam atque, sapiente quasi odit omnis est?</p>
+<p style="color: dodgerblue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam atque, sapiente quasi odit omnis est?</p>
+<p style="color: violet;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam atque, sapiente quasi odit omnis est?</p>
+        
+<h3>Wanr Pada Perbatasan</h3>
+<p style="border: 3px solid maroon;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam ab accusamus impedit eligendi quia beatae.</p>
+<p style="border: 3px solid yellow;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam ab accusamus impedit eligendi quia beatae.</p>
+<p style="border: 3px solid blueviolet;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam ab accusamus impedit eligendi quia beatae.</p>
+
+
+Model Warna
+
+Warna juga dapat ditentukan menggunakan model warna 
+seperti RGB, HEX, HSL, RGBA, dan HSLA. Model warna 
+ini kita representasikan dengan nilai yang bisa kita
+sesuaikan untuk mendapatkan warna tertentu.
+
+
+RGB
+
+RGB adalah suatu model warna yang terdiri atas 3 buah warna: 
+merah (Red), hijau (Green), dan biru (Blue). Masing-masing 
+warna ini di representasikan menggunakan nilai desimal antara
+0 sampai 255, dimana 0 adalah warna minimal dan 255 adalah 
+warna maksimal. Untuk menghasilkan bermacam-macam warna kita 
+bisa melakukanya dengan meningkatakan atau mengurangkan nilai 
+masing-masing warna. 
+
+Misalkan, untuk mendapatkan warna kuning maka kita harus 
+mencampurkan merah sebanyak 255, hijau sebanyak 255, dan 
+biru sebanyak 0. Karena pada dasarnya warna kuning adalah
+perpaduan dari warna merah dan hijau, maka kita cukup
+meningkatakan nilai warna merah dan hijau saja dan 
+mengurangkan nilai warna biru.
+
+Contoh:
+
+<p style="background-color: rgb(119, 22, 158);">Ini adalah teks</p>
+
+
+HEX
+
+HEX adalah model warna yang di representasikan melalui nilai
+hexadecimal. Sebuah warna hexadecimal mengikuti format #RRGGBB 
+dimana RR adalah red atau merah, GG adalah green atau hijau, 
+dan BB adalah blue atau biru. Masing-masing warna ini dapat 
+ditulis dengan nilai hexadecimal terendah dengan kisaran 
+angka 00 hingga tertinggi dengan kisaran huruf FF. 00 adalah
+nilai 0 dalam desimal RGB dan FF adalah nilai 255 dalam 
+desimal RGB, hampir sama seperti RGB hanya saja HEX ditulis 
+dengan nilai hexadecimal.
+
+Contohnya, #FF0000 adalah warna merah, #00FF00 adalah warna 
+hijau, sedangkan #777777 adalah untuk warna silver.
+
+Contoh:
+
+<p style="background-color: #b4fc0d;">Ini adalah teks</p>
+
+
+HSL
+
+HSL (hue, saturation, lightness) juga dikenal sebagai HSB atau 
+(hue, saturation, brightness) adalah representasi alternatif 
+dari model warna RGB, yang dirancang pada tahun 1970-an 
+oleh para peneliti grafik komputer untuk lebih menyelaraskan 
+cara penglihatan manusia memandang atribut pembuat warna.
+
+Untuk menulis kode HSL, kita membutuhkan 3 nilai:
+
+Nilai pertama yakni Hue merupakan derajat warna dengan nilai 
+0 sampai 360. Nilai ini didapat dari lingkaran warna (color 
+wheel) yang tersusun dari warna pelangi, dimulai dari merah, 
+jingga, kuning, hijau, biru, nila, ungu (me-ji-ku-hi-bi-ni-u). 
+Sehingga nilai Hue 0 (atau 360 ,karena itu sudah 1 putaran) 
+menghasilkan warna merah. Merujuk kepada color wheel, warna 
+kuning akan berada sekitar angka 50, orange di angka 100, hijau 
+di sekitar 150, dan seterusnya. Setiap warna berada dalam jarak 
+sekitar 51 derajat.
+
+Nilai kedua dari kode warna HSL adalah Saturation. Saturation 
+menyatakan seberapa "murni" sebuah warna. Nilai dari Saturation 
+adalah persen dari 0% sampai dengan 100%, dimana nilai 0% akan 
+membuat warna menjadi pudar dan menghasilkan warna abu-abu (terlepas 
+dari apapun warna Hue yang dipilih). Dan nilai Saturation 100% 
+adalah warna murni.
+
+Nilai ketiga dari HSL adalah Lightness atau kecerahan dari warna. 
+Sama seperti Saturation, nilai Lightness berada dalam angka 0% sampai 
+dengan 100%. Nilai 0% akan membuat warna apapun menjadi hitam, dan 
+nilai 100% akan membuat warna apapun menjadi putih. Untuk mendapatkan 
+warna "normal" angkanya berada di nilai 50%.
+
+Contoh:
+
+<p style="background-color: hsl(0, 100%, 65%);">Ini adalah teks</p>
+
+
+RGBA
+
+RGBA adalah model warna RGB dengan penambahan nilai A atau Alpha
+untuk mengatur ketransparannan warna. Nilai alpha bisa kita 
+atur dari 0.0 hingga 1. Dimana 0.0 adalah nilai alpha minimanl
+yang membuat warna menjadi transparan sepenuhnya dan 1 adalah
+nilai alpha maksimal yang membuat warna menjadi tidak transparan
+atau solid.
+
+Contoh:
+
+<p style="background-color: rgba(6, 44, 29, 0.2);">Ini adalah teks</p>
+
+
+HSLA
+
+HSLA model warna HSL dengan penambahan nilai A atau Alpha
+untuk mengatur ketransparannan warna. Nilai alpha bisa kita 
+atur dari 0.0 hingga 1. Dimana 0.0 adalah nilai alpha minimanl
+yang membuat warna menjadi transparan sepenuhnya dan 1 adalah
+nilai alpha maksimal yang membuat warna menjadi tidak transparan
+atau solid.
+
+Contoh:
+
+<p style="background-color: hsla(0, 100%, 55%, 1.0);">Ini adalah teks</p>
+
+
+Referensi:
+
+1.  https://www.duniailkom.com/tutorial-belajar-css-penulisan-kode-
+    warna-pada-css/
+2.  https://www.duniailkom.com/artikel-css-pengertian-dan-cara-
+    penulisan-kode-warna-rgba-hsl-dan-hsla/
+3.  https://www.w3schools.com/html/html_colors.asp
+
+
+
+
+
+
+
+
