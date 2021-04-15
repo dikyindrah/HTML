@@ -26,19 +26,12 @@ nama sub direktori dari gambar tersebut.
 
 Contoh:
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Images</title>
-    </head>
-    <body>
-        <img src="img/anime.jpg">
+<img src="img/anime.jpg">
 
-        <!-- atau -->
+<!-- atau -->
 
-        <img src="../data/anime.jpg">
-    </body>
-</html>
+<img src="../data/anime.jpg">
+
 
 tanda / digunakan untuk mengakses seluruh data yang ada didalam
 direktori lain, data ini bisa berupa sub direktori dan file.
@@ -53,17 +46,10 @@ gambar sebagai value atribut src.
 
 Contoh:
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Images</title>
-    </head>
-    <body>
-        <img src="https://c4.wallpaperflare.com/wallpaper/454/693/150/anime
-        -that-time-i-got-reincarnated-as-a-slime-rimuru-tempest-hd-wallpaper
-        -preview.jpg">
-    </body>
-</html>
+<img src="https://c4.wallpaperflare.com/wallpaper/454/693/150/anime
+-that-time-i-got-reincarnated-as-a-slime-rimuru-tempest-hd-wallpaper
+-preview.jpg">
+
 
 Kita juga bisa menambahkan atribut lain untuk menambahkan 
 informasi dan mengatur ukuran gambar.
@@ -85,15 +71,8 @@ saat di sorot oleh kursor.
 
 Contoh:
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Images</title>
-    </head>
-    <body>
-        <img src="anime.jpg" alt="ini adalah gambar" title="anime.jpg">
-    </body>
-</html>
+<img src="anime.jpg" alt="ini adalah gambar" title="anime.jpg">
+
 
 Mengatur Ukuran Gambar
 
@@ -103,12 +82,8 @@ height untuk mengatur tinggi gambar.
 
 Contoh:
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Images</title>
-    </head>
-    <body>
-        <img src="img/anime.jpg" width="100px" height="110px">
-    </body>
-</html>
+<img src="img/anime.jpg" width="100px" height="110px">
+
+Referensi:
+
+1.  https://www.w3schools.com/html/html_images.asp
