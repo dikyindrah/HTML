@@ -23,6 +23,7 @@ terpisah dari dokumen HTML (cara External). Namun cara
 Inline dan Internal juga perlu kita pelajari agar menambah 
 pengetahuan kita.
 
+
 Inline
 
 Cara ini sering digunakan untuk memformat tampilan pada
@@ -41,6 +42,7 @@ Contoh:
         <p style="font-family: Arial, Helvetica, sans-serif; font-size: large; color: blue;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, numquam! Id labore veritatis nam molestias fuga cumque molestiae, illo perspiciatis eum delectus, officia mollitia soluta?</p>
     </body>
 </html>
+
 
 Internal
 
@@ -76,6 +78,7 @@ Contoh:
     </body>
 </html>
 
+
 External
 
 Cara ini digunakan untuk memformat tampilan pada seluruh
@@ -101,6 +104,7 @@ Contoh:
     </body>
 </html>
 
+
 file .css
 
 Contoh:
@@ -117,3 +121,7 @@ p {
 body {
     background-color: aliceblue;
 }
+
+Referensi:
+
+1.  https://www.w3schools.com/html/html_css.asp
