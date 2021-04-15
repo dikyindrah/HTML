@@ -10,15 +10,8 @@ situs yang ingin kita hubungkan.
 
 Contoh:
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Hyperlink</title>
-    </head>
-    <body>
-        <a href="https://www.w3schools.com/html">Belajar HTML</a>
-    </body>
-</html>
+<a href="https://www.w3schools.com/html">Belajar HTML</a>
+
 
 Terdapat dua jenis alamat situs yang bisa kita berikan sebagai
 value pada atribut href yaitu absolute url dan relative url.
@@ -30,21 +23,14 @@ disebut sebagai internal link.
 
 Contoh:
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Hyperlink</title>
-    </head>
-    <body>
-        <h3>Absolute URL</h3>
-        <a href="https://www.w3schools.com/html">Belajar HTML</a><br><br>
+<h3>Absolute URL</h3>
+<a href="https://www.w3schools.com/html">Belajar HTML</a><br><br>
         
-        <h3>Relative URL</h3>
-        <a href="Page1.html">Halaman 1</a><br>
-        <a href="page/Page2.html">Halaman 2</a><br>
-        <a href="page/alt/Page3.html">Halaman 3</a><br><br>
-    </body>
-</html>
+<h3>Relative URL</h3>
+<a href="Page1.html">Halaman 1</a><br>
+<a href="page/Page2.html">Halaman 2</a><br>
+<a href="page/alt/Page3.html">Halaman 3</a><br><br>
+
 
 Secara default ketika kita membuka suatu link yang berisi 
 halaman, maka dia akan terbuka pada jendela browser saat ini, 
@@ -60,35 +46,21 @@ _parent membuka halaman pada jendela induk.
 _top membuka halaman pada seluruh badan jendela.
 
 Contoh:
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Hyperlink</title>
-    </head>
-    <body>
-        <h3>Target</h3>
-        <a href="Page1.html" target="_self">Target Self</a><br>
-        <a href="Page1.html" target="_blank">Target Blank</a><br>
-        <a href="Page1.html" target="_parent">Target Parent</a><br>
-        <a href="Page1.html" target="_top">Target Top</a><br><br>
-    </body>
-</html>
+
+<h3>Target</h3>
+<a href="Page1.html" target="_self">Target Self</a><br>
+<a href="Page1.html" target="_blank">Target Blank</a><br>
+<a href="Page1.html" target="_parent">Target Parent</a><br>
+<a href="Page1.html" target="_top">Target Top</a><br><br>
+
 
 Selain itu kita juga bisa menambahkan link pada suatu gambar,
 kita hanya perlu membungkus tag <img> dengan tag <a></a>.
 
 Contoh:
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Hyperlink</title>
-    </head>
-    <body>
-        <h3>Hyperlink Dengan Gambar</h3>
-        <a href="page/Page2.html" target="_blank"><img src="img/anime.jpg" alt="anime.jpg" width="10%"></a>
-    </body>
-</html>
+<h3>Hyperlink Dengan Gambar</h3>
+<a href="page/Page2.html" target="_blank"><img src="img/anime.jpg" alt="anime.jpg" width="10%"></a>
 
 
 Referensi:
