@@ -11,7 +11,7 @@ pada hyperlink yang mungkin terdapat dalam halaman HTML dan
 "Markup Language" mengacu pada bahasa komputer yang menggunakan 
 tag untuk mendefinisikan elemen di dalam dokumen.
 
-Di bawah ini adalah contoh kode HTML yang digunakan untuk 
+Di bawah ini adalah contoh kode HTML5 yang digunakan untuk 
 mendefinisikan halaman web dasar dengan paragraf dan judul. 
 
 Contoh:
@@ -25,6 +25,7 @@ Contoh:
         <p>Saya sedang belajar HTML</p>
     </body>
 </html>
+
 
 Baris pertama menentukan jenis konten yang dikandung dokumen. 
 "<!doctype html> " berarti halaman tersebut ditulis dalam HTML5. 
@@ -91,6 +92,7 @@ Contoh:
     <p>Saya sedang belajar HTML</p>
 </body>
 </html> 
+
 
 XHTML adalah bahasa markup penerus dan pengembangan dari HTML 
 yang memiliki kemampuan yang kurang lebih mirip seperti HTML, 
