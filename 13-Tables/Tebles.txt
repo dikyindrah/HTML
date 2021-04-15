@@ -11,30 +11,23 @@ mendefinisikan data <td></td>.
 
 Contoh:
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Tables</title>
-    </head>
-    <body>
-        <!-- Mendefinisikan table -->
-        <table>
-            <!-- Mendefinisikan baris -->
-            <tr>
-                <!-- Mendefinisikan nama kolom -->
-                <th>No</th>
-                <th>Nama Barang</th>
-                <th>Harga</th>
-            </tr>
-            <tr>
-                <!-- Mendefiniskan data -->
-                <td>1</td>
-                <td>Pulpen</td>
-                <td>2500</td>
-            </tr>
-        </table>
-    </body>
-</html>
+<!-- Mendefinisikan table -->
+<table>
+    <!-- Mendefinisikan baris -->
+    <tr>
+        <!-- Mendefinisikan nama kolom -->
+        <th>No</th>
+        <th>Nama Barang</th>
+        <th>Harga</th>
+    </tr>
+    <tr>
+        <!-- Mendefiniskan data -->
+        <td>1</td>
+        <td>Pulpen</td>
+        <td>2500</td>
+    </tr>
+</table>
+
 
 Kode html diatas mendefinisikan struktur tabel sederhana
 dengan 2 baris 3 kolom. Untuk mengatur bentuk tabel HTML, 
@@ -45,30 +38,23 @@ mengatur jarak antar cell.
 
 Contoh:
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Tables</title>
-    </head>
-    <body>
-        <!-- Mendefinisikan table -->
-        <table border="1px" cellpadding="3px" cellspacing="0">
-            <!-- Mendefinisikan baris -->
-            <tr>
-                <!-- Mendefinisikan nama kolom -->
-                <th>No</th>
-                <th>Nama Barang</th>
-                <th>Harga</th>
-            </tr>
-            <tr>
-                <!-- Mendefiniskan data -->
-                <td>1</td>
-                <td>Pulpen</td>
-                <td>2500</td>
-            </tr>
-        </table>
-    </body>
-</html>
+<!-- Mendefinisikan table -->
+<table border="1px" cellpadding="3px" cellspacing="0">
+    <!-- Mendefinisikan baris -->
+    <tr>
+        <!-- Mendefinisikan nama kolom -->
+        <th>No</th>
+        <th>Nama Barang</th>
+        <th>Harga</th>
+    </tr>
+    <tr>
+        <!-- Mendefiniskan data -->
+        <td>1</td>
+        <td>Pulpen</td>
+        <td>2500</td>
+    </tr>
+</table>
+
 
 Untuk struktur tabel yang lebih kompleks kita bisa 
 menggunakan tag <thead></thead> dan <tbody></tbody>
@@ -90,41 +76,38 @@ keduanya.
 
 Contoh:
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Tables</title>
-    </head>
-    <body>
-        <h3>Tabel Kompleks</h3>
-        <!-- Mendefinisikan tabel -->
-        <table border="1px" cellpadding="3px" cellspacing="0px">
-            <!-- Mendefinisikan heading tabel -->
-            <thead>
-                <!-- Mendefinisikan baris heading tabel -->
-                <tr>
-                    <!-- Mendefinisikan nama kolom -->
-                    <th></th>
-                    <th>kolom 1</th>
-                    <th>kolom 2</th>
-                </tr>
-            </thead>
-            <!-- Mendefinisikan body tabel -->
-            <tbody>
-                <!-- Mendefinisikan body baris tabel -->
-                <tr>
-                    <!-- Mendefinisikan nama baris -->
-                    <th>baris 1</th>
-                    <!-- Mendefinisikan data pada baris dan kolom -->
-                    <td>baris 1, kolom 1</td>
-                    <td>baris 1, kolom 2</td>
-                </tr>
-                <tr>
-                    <th>baris 2</th>
-                    <td>baris 2, kolom 1</td>
-                    <td>baris 2, kolom 2</td>
-                </tr>
-            </tbody>
-        </table>
-    </body>
-</html>
+<h3>Tabel Kompleks</h3>
+<!-- Mendefinisikan tabel -->
+<table border="1px" cellpadding="3px" cellspacing="0px">
+    <!-- Mendefinisikan heading tabel -->
+    <thead>
+        <!-- Mendefinisikan baris heading tabel -->
+        <tr>
+            <!-- Mendefinisikan nama kolom -->
+            <th></th>
+            <th>kolom 1</th>
+            <th>kolom 2</th>
+        </tr>
+    </thead>
+    <!-- Mendefinisikan body tabel -->
+    <tbody>
+        <!-- Mendefinisikan body baris tabel -->
+        <tr>
+            <!-- Mendefinisikan nama baris -->
+            <th>baris 1</th>
+            <!-- Mendefinisikan data pada baris dan kolom -->
+            <td>baris 1, kolom 1</td>
+            <td>baris 1, kolom 2</td>
+        </tr>
+        <tr>
+            <th>baris 2</th>
+            <td>baris 2, kolom 1</td>
+            <td>baris 2, kolom 2</td>
+        </tr>
+    </tbody>
+</table>
+
+
+Referensi:
+
+1.  https://www.w3schools.com/html/html_tables.asp
