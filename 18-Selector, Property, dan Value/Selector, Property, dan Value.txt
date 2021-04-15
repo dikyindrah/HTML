@@ -1,0 +1,63 @@
+Catatan:
+
+Selector, Property, dan Value
+
+Untuk memformat tampilkan halaman web atau mengatur gaya
+pada suatu elemen menggunakan CSS, kita perlu memberikan 
+sejumlah informasi kepada browser misalnya bagian mana 
+yang ingin kita format dan format seperti tampilkan apa 
+yang kita inginkan. Oleh karena itu CSS memberikan 
+Selector, Property, dan Value sebagai cara yang bisa 
+kita gunakan untuk melakukan semua itu.
+
+
+Selector
+
+Selector adalah cara yang kita gunakan untuk menentukan
+atau mengelompokan bagian atau elemen mana pada dokumen 
+HTML yang ingin kita format atau kita atur gayanya. Untuk 
+mendefinisikan selector kita hanya perlu menuliskan tag,
+id, atau class pada file .css . Misalnya p, h1, img, dll.
+
+Property
+
+Property merupakan jenis format atau jenis gaya yang 
+digunakan untuk mangatur gaya yang akan di tampilkan pada 
+elemen yang sudah di tentukan sebelumnya. Property pada 
+CSS sangat banyak sekali. Misalnya property yang biasa 
+kita temukan adalah background-color, color, font-family, 
+font-size, margin, padding dan masih banyak lagi.
+
+Value
+
+Value merupakan nilai dari property dimana value telah 
+ditentukan pasangannya dengan property yang ada, dan tidak
+bisa sembarangan dalam meberikan value pada setiap property. 
+Misalnya property color tidak bisa diisikan dengan value bold.
+
+Contoh:
+
+/* Selector */
+body {
+    /* Property */     /*Value*/
+    background-color: skyblue;
+}
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: black;
+}
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: black;               
+}
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+Referensi:
+
+1.  https://www.dumetschool.com/blog/pengertian-selector-
+    property-dan-value-pada-css
