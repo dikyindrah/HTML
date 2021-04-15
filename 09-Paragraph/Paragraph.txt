@@ -1,3 +1,5 @@
+Catatan:
+
 Paragraph
 
 Paragraph atau jika dalam bahasa indonesia disebut paragraf
@@ -13,68 +15,47 @@ sejumlah kalimat kedalam tag <p></p>.
 
 Contoh:
 
-<!-- Paragraph -->
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Paragraph</title>
-    </head>
-    <body>
-        <h1>Paragraf</h1>
-
-        <!-- Paragraf pertama -->
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
-            elit. Sapiente officiis, inventore est facilis architecto 
-            neque laudantium dicta quod. Soluta nihil, rerum architecto 
-            non impedit ipsum unde officia doloremque alias quaerat.</p>
+<!-- Paragraf pertama -->
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+    elit. Sapiente officiis, inventore est facilis architecto 
+    neque laudantium dicta quod. Soluta nihil, rerum architecto 
+    non impedit ipsum unde officia doloremque alias quaerat.</p>
         
-        <!-- Paragraf kedua -->
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
-            elit. Sapiente officiis, inventore est facilis architecto 
-            neque laudantium dicta quod. Soluta nihil, rerum architecto 
-            non impedit ipsum unde officia doloremque alias quaerat.</p>
+<!-- Paragraf kedua -->
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+    elit. Sapiente officiis, inventore est facilis architecto 
+    neque laudantium dicta quod. Soluta nihil, rerum architecto 
+    non impedit ipsum unde officia doloremque alias quaerat.</p>
         
-        <!-- Paragraf ketiga -->
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
-            elit. Sapiente officiis, inventore est facilis architecto 
-            neque laudantium dicta quod. Soluta nihil, rerum architecto 
-            non impedit ipsum unde officia doloremque alias quaerat.</p>
-    </body>
-</html>
+<!-- Paragraf ketiga -->
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+    elit. Sapiente officiis, inventore est facilis architecto 
+    neque laudantium dicta quod. Soluta nihil, rerum architecto 
+    non impedit ipsum unde officia doloremque alias quaerat.</p>
 
 
 Selaian browser kita juga bisa memberikan jarak antar paragraf
 secara manual mengguakan tag <br>.
 
-Contoh:
+Contoh: 
 
-<!-- Paragraph -->
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Paragraph</title>
-    </head>
-    <body>
-        <h1>Paragraf</h1>
-        <!-- Paragraf pertama -->
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
-            elit. Sapiente officiis, inventore est facilis architecto 
-            neque laudantium dicta quod. Soluta nihil, rerum architecto 
-            non impedit ipsum unde officia doloremque alias quaerat.</p>
-        <br><br><br>
-        <!-- Paragraf kedua -->
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
-            elit. Sapiente officiis, inventore est facilis architecto 
-            neque laudantium dicta quod. Soluta nihil, rerum architecto 
-            non impedit ipsum unde officia doloremque alias quaerat.</p>
-        <br><br><br>
-        <!-- Paragraf ketiga -->
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
-            elit. Sapiente officiis, inventore est facilis architecto 
-            neque laudantium dicta quod. Soluta nihil, rerum architecto 
-            non impedit ipsum unde officia doloremque alias quaerat.</p>
-    </body>
-</html>
+<!-- Paragraf pertama -->
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+    elit. Sapiente officiis, inventore est facilis architecto 
+    neque laudantium dicta quod. Soluta nihil, rerum architecto 
+    non impedit ipsum unde officia doloremque alias quaerat.</p>
+<br><br><br>       
+<!-- Paragraf kedua -->
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+    elit. Sapiente officiis, inventore est facilis architecto 
+    neque laudantium dicta quod. Soluta nihil, rerum architecto 
+    non impedit ipsum unde officia doloremque alias quaerat.</p>
+<br><br><br>        
+<!-- Paragraf ketiga -->
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+    elit. Sapiente officiis, inventore est facilis architecto 
+    neque laudantium dicta quod. Soluta nihil, rerum architecto 
+    non impedit ipsum unde officia doloremque alias quaerat.</p>
 
 
 Kemudian kita juga bisa membuat garis horizontal untuk membatasi 
@@ -82,35 +63,23 @@ setiap pargraf menggunakan tag <hr>.
 
 Contoh:
 
-<!-- Paragraph -->
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Paragraph</title>
-    </head>
-    <body>
-        <h1>Paragraf</h1>
-        <!-- Paragraf pertama -->
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
-            elit. Sapiente officiis, inventore est facilis architecto 
-            neque laudantium dicta quod. Soluta nihil, rerum architecto 
-            non impedit ipsum unde officia doloremque alias quaerat.</p>
-        <!-- <br><br><br> -->
-        <hr>
-        <!-- Paragraf kedua -->
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
-            elit. Sapiente officiis, inventore est facilis architecto 
-            neque laudantium dicta quod. Soluta nihil, rerum architecto 
-            non impedit ipsum unde officia doloremque alias quaerat.</p>
-        <!-- <br><br><br> -->
-        <hr>
-        <!-- Paragraf ketiga -->
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
-            elit. Sapiente officiis, inventore est facilis architecto 
-            neque laudantium dicta quod. Soluta nihil, rerum architecto 
-            non impedit ipsum unde officia doloremque alias quaerat.</p>
-    </body>
-</html>
+<!-- Paragraf pertama -->
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+    elit. Sapiente officiis, inventore est facilis architecto 
+    neque laudantium dicta quod. Soluta nihil, rerum architecto 
+    non impedit ipsum unde officia doloremque alias quaerat.</p>
+<hr>       
+<!-- Paragraf kedua -->
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+    elit. Sapiente officiis, inventore est facilis architecto 
+    neque laudantium dicta quod. Soluta nihil, rerum architecto 
+    non impedit ipsum unde officia doloremque alias quaerat.</p>
+<hr>     
+<!-- Paragraf ketiga -->
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+    elit. Sapiente officiis, inventore est facilis architecto 
+    neque laudantium dicta quod. Soluta nihil, rerum architecto 
+    non impedit ipsum unde officia doloremque alias quaerat.</p>
 
 
 Tag <p> membuat seluruh kalimat yang ada di dalamnya 
@@ -120,41 +89,15 @@ tersebut sesuai dengan yang kita inginkan dengan tag <pre>.
 
 Contoh:
 
-<!-- Paragraph -->
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Paragraph</title>
-    </head>
-    <body>
-        <h1>Paragraf</h1>
-        <!-- Paragraf pertama -->
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
-            elit. Sapiente officiis, inventore est facilis architecto 
-            neque laudantium dicta quod. Soluta nihil, rerum architecto 
-            non impedit ipsum unde officia doloremque alias quaerat.</p>
-        <!-- <br><br><br> -->
-        <hr>
-        <!-- Paragraf kedua -->
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
-            elit. Sapiente officiis, inventore est facilis architecto 
-            neque laudantium dicta quod. Soluta nihil, rerum architecto 
-            non impedit ipsum unde officia doloremque alias quaerat.</p>
-        <!-- <br><br><br> -->
-        <hr>
-        <!-- Paragraf ketiga -->
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
-            elit. Sapiente officiis, inventore est facilis architecto 
-            neque laudantium dicta quod. Soluta nihil, rerum architecto 
-            non impedit ipsum unde officia doloremque alias quaerat.</p>
-        <hr>
-        <!-- Paragraf keempat -->
-        <pre>
-            Ini adalah kalimat pertama
-            Ini adalah kalimat kedua
-            Ini adalah kalimat ketiga
-            Ini adalah kalimat keempat
-            Ini adalah kalimat kelima
-        </pre>
-    </body>
-</html>
+<pre>
+    Ini adalah kalimat pertama
+    Ini adalah kalimat kedua
+    Ini adalah kalimat ketiga
+    Ini adalah kalimat keempat
+    Ini adalah kalimat kelima
+</pre>
+
+
+Referensi:
+
+1.  https://www.w3schools.com/html/html_paragraphs.asp
