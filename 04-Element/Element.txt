@@ -2,27 +2,28 @@ Catatan:
 
 Element
 
-Element adalah seluruh informasi yang berada pada tag pembuka
-hingga tag penutup (<nama tag atribut="value"> ...konten... 
-</nama tag>).  Ini termasuk konten, tag itu sendiri, dan 
-atribut yang dimilikinya.
+Element atau Elemen adalah seluruh informasi yang berada 
+pada tag pembuka hingga tag penutup (<nama tag atribut="value">
+...konten... </nama tag>).  Ini termasuk konten, tag itu 
+sendiri, dan atribut yang dimilikinya.
 
 Contoh:
 
 <p>Saya sedang belajar HTML</p>
 
 Pada contoh diatas, "<p>Saya sedang belajar HTML</p>" merupakan 
-element p.
+elemen p.
 
 
-Suatu element tidak hanya dapat berisi konten saja namun juga 
+Suatu elemen tidak hanya dapat berisi konten saja namun juga 
 dapat berisi tag lain.
 
 Contoh:
 
 <p><b>Saya sedang belajar HTML</b></p>
 
-Element di atas menyatakan paragraf dengan huruf becetak tebal.
+Elemen di atas menyatakan paragraf dengan huruf becetak tebal.
+
 
 Referensi:
 
