@@ -9,13 +9,14 @@ jarak antar elemen, bagaimana elemen diposisikan dan di
 tata, gambar latar belakang yang akan digunakan, tampilan
 untuk perangkat dan ukuran layar yang berbeda, dll.
 
-CSS dapat di tambahkan kedalam dokumen HTML dengan 3 cara:
+Kita dapat menambahkan CSS kedalam dokumen HTML dengan 3 
+cara, yaitu:
 
-Inline      - Menggunakan atribut style didalam elemen HTML.
-Internal    - Menggunakan tag <Style></Style> pada elemen 
-              <head></head>.
-External    - Menggunakan tag <link> pada elemen <head></head>
-              untuk ditautkan ke file CSS yang terpisah.
+[-] Inline      - Menggunakan atribut style didalam elemen HTML.
+[-] Internal    - Menggunakan tag <Style></Style> pada elemen 
+                  <head></head>.
+[-] External    - Menggunakan tag <link> pada elemen <head></head>
+                  untuk ditautkan ke file CSS yang terpisah.
 
 Cara yang paling umum untuk memformat tampilan halaman web
 adalah dengan membuat file CSS dan menuliskan kode secara 
@@ -28,7 +29,8 @@ Inline
 
 Cara ini sering digunakan untuk memformat tampilan pada
 elemen HTML di suatu baris. Untuk menggunakan cara ini
-kita perlu menuliskan atribut style pada tag pembuka elemen.
+kita perlu mendefinisikan atribut style pada tag pembuka 
+elemen.
 
 Contoh:
 
