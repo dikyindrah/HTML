@@ -1,3 +1,5 @@
+Catatan:
+
 Comment
 
 Comment atau jika dalam bahasa indonesia disebut komentar
@@ -15,13 +17,12 @@ pointer pada suatu baris dan menekan kombinasi tombol ctrl + /
 
 Contoh:
 
-<!DOCTYPE html>
-<head>
-    <title>Comment</title>
-</head>
-<body>
-    <!-- Dibawah ini adalah tag untuk mendefinisikan paragraf -->
-    <p>Ini adalah sebuah paragraf</p> 
+<!-- Dibawah ini adalah tag untuk mendefinisikan paragraf -->
+<p>Ini adalah sebuah paragraf</p> 
     
-    <!-- <p>Ini adalah tag yang di nonaktifkan dengan komentar</p>  -->
-</body>
+<!-- <p>Ini adalah tag yang di nonaktifkan dengan komentar</p>  -->
+
+
+Referensi:
+
+1.  https://www.w3schools.com/html/html_comments.asp
