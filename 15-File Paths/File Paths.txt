@@ -1,0 +1,52 @@
+Catatan:
+
+File Paths
+
+File Paths adalah jalur file yang menjelaskan lokasi file
+pada situs web. File ini biasanya berada di suatu folder
+atau sub folder pada penyimpanan yang digunakan situs web
+seperti komputer lokal atau web hosting. Jalur file ini
+biasanya digunakan untuk menghubungkan file eksternal ke
+file saat ini atau sederhananya, ini digunakan sebagai jalur 
+penghubung antar file. File-file yang dihubungkan misalnya
+seperti halaman web, file css, file javascript, gambar, dll.
+
+Contoh:
+
+<img src="picture.jpg">
+<!-- File "picture.jpg" terletak di folder yang sama dengan 
+halaman saat ini. -->
+
+<img src="images/picture.jpg">
+<!-- File "picture.jpg" terletak di folder gambar. -->
+
+<img src="/images/picture.jpg">
+<!-- File "picture.jpg" terletak di folder gambar di root web 
+saat ini. -->
+
+<img src="../picture.jpg">
+<!-- File "picture.jpg" terletak di folder satu tingkat di atas 
+folder saat ini. Tanda .. artinya keluar satu folder. -->
+
+
+File Paths memiliki dua jenis yaitu Absolute File Path dan 
+Relative File Path. Absolute File Path mendefinisikan lokasi 
+secara lengkap yang kita ambil dari situs lain di internet, 
+ini sering juga disebut sebagai external path. Relative File 
+Path mendefinisikan lokasi file pada penyimpanan yang sama, 
+ini sering disebut sebagai internal path.
+
+Contoh:
+
+<!-- Absolute File Path -->
+<img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain"> 
+
+<!-- Relative File Path -->
+<img src="/images/picture.jpg" alt="Mountain"> 
+<img src="images/picture.jpg" alt="Mountain"> 
+<img src="../images/picture.jpg" alt="Mountain"> 
+
+
+Referensi:
+
+1.  https://www.w3schools.com/html/html_filepaths.asp

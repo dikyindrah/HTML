@@ -12,6 +12,8 @@ dan menampilkanya.
 
 Untuk menambahkan gambar kedalam dokumen html kita bisa 
 menggunakan tag <img> dan atribut src dengan value lokasi gambar.
+Kita bisa menggunakan relative file path jika file gambar 
+tersimpan pada tempat penyimpanan yang sama.
 
 Contoh:
 
@@ -41,8 +43,9 @@ tanda .. digunakan untuk keluar dari direktori.
 
 Sumber atau lokasi gambar ini umumnya berada pada penyimpanan 
 komputer dan hosting, namun kita juga bisa mendefinisikan 
-gambar yang bersumber dari internet dengan menuliskan url
-gambar sebagai value atribut src.
+gambar yang bersumber dari internet menggunakan absolute file 
+path. Caranya adalah dengan menuliskan url gambar yang kita 
+peroleh di internet sebagai value atribut src.
 
 Contoh:
 
