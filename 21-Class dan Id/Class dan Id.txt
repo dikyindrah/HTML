@@ -1,0 +1,129 @@
+Catatan:
+
+Class dan Id
+
+Class dan Id adalah penanda yang bisa kita berikan di
+suatu elemen pada HTML. Penanda ini biasaya diberikan
+pada suatu elemen agar kita bisa memformat elemen atau
+memanipulasi elemen tersebut di CSS atau Javascript. 
+
+Class
+
+Untuk mendefinisikan class pada suatu elemen, kita hanya 
+perlu menuliskan atribut class pada elemen tersebut dan
+menuliskan nama class yang kita inginkan. Kemudian untuk 
+memanggilnya pada css kita cukup menulis tanda titik 
+kemudian menuliskan nama class yang kita berikan pada 
+elemen tersebut.
+
+Contoh:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Class dan Id</title>
+        <style>
+            .judul {
+                color: slateblue;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Class -->
+        <h1 class="judul">Judul 1</h1>
+        <h1 class="judul">Judul 2</h1>
+        <h1 class="judul">Judul 3</h1>
+    </body>
+</html>
+
+
+Satu elemen HTML bisa memiliki lebih dari satu nama class.
+Cara mendefinisikannya adalah dengan memberi jarak berupa
+spasi setelah nama class pertama kemudian menuliskan nama
+class yang baru. Elemen tersebut bisa diformat sesuai dengan
+nama class yang di tentukan.
+
+Contoh:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Class dan Id</title>
+        <style>
+            .judul {
+                color: slateblue;
+            }
+            .judul4 {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Satu elemen html bisa memiliki lebih dari satu nama
+        class -->
+        <h1 class="judul judul4">Judul 4</h1>
+    </body>
+</html>
+
+
+Kemudian satu nama class juga bisa didefinisikan pada elemen yang
+berbeda.
+
+Contoh:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Class dan Id</title>
+        <style>
+            .bagian1 {
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Satu nama class bisa didefinisikan pada element yang
+        berbeda -->
+        <h1 class="bagian1">Judul Paragraf</h1>
+        <p class="bagian1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, illo ut exercitationem nisi cumque aperiam!</p>
+    </body>
+</html>
+
+
+Id
+
+Untuk mendefinisikan id pada suatu elemen, kita hanya 
+perlu menuliskan atribut id pada elemen tersebut dan
+menuliskan nama id yang kita inginkan. Kemudian untuk 
+memanggilnya pada css kita cukup menulis tanda titik 
+kemudian menuliskan nama id yang kita berikan pada 
+elemen tersebut.
+
+Contoh:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Class dan Id</title>
+        <style>
+            #judul_1, #paragraf_1 {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                color: brown;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Id -->
+        <h1 id="judul_1">Judul 1</h1>
+        <p id="paragraf_1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam nulla, velit fuga iste dolorum sunt.</p>
+    </body>
+</html>
+
+
+
+
+Referensi:
+
+1.  https://www.w3schools.com/html/html_classes.asp
+2.  https://www.malasngoding.com/belajar-html-mengenal-
+    class-dan-id-pada-html/
