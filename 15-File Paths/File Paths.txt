@@ -46,7 +46,7 @@ Contoh:
 <img src="images/picture.jpg" alt="Mountain"> 
 <img src="../images/picture.jpg" alt="Mountain"> 
 
-
+ 
 Referensi:
 
 1.  https://www.w3schools.com/html/html_filepaths.asp
