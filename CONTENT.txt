@@ -9,22 +9,21 @@ HTML Basics
 8.	Paragraphs
 9.	Text Formatting
 10.	Quotations
-11.	Links
 12.	List
 13.	Tables
+23.	File Paths <--
 14.	Images
-15.	Styles
-16.	Colors
+11.	Links
 17.	CSS
-18.	Block and Inline
+16.	Colors
 19.	Classes
 20.	Id
+18.	Block and Inline
+24.	Head
+26.	Responsive
+25.	Layout
 21.	Iframes
 22.	JavaScript
-23.	File Paths
-24.	Head
-25.	Layout
-26.	Responsive
 27.	Computercode
 28.	Semantics
 29.	Style Guide
