@@ -1,0 +1,156 @@
+Catatan:
+
+Block dan Inline
+
+Block dan Inline adalah jenis tampilan default yang 
+dimiliki elemen HTML.
+
+
+Block
+
+Elemen HTML yang memiliki jenis tampilan block akan
+selalu dimulai pada baris baru dan memperluas lebar
+sepenuhnya secara horizontal (membentang dari kanan 
+ke kiri). Pada elemen jenis ini kita bisa mengatur 
+margin atas dan bawah.
+
+Berikut adalah elemen HTML yang memiliki jenis 
+tampilan block:
+
+[-] <address>       [-] <header>
+[-] <article>       [-] <hr>
+[-] <aside>         [-] <li>
+[-] <blockquote>    [-] <main>
+[-] <canvas>        [-] <nav>
+[-] <dd>            [-] <noscript>
+[-] <div>           [-] <ol>
+[-] <dl>            [-] <p>
+[-] <dt>            [-] <pre>
+[-] <fieldset>      [-] <section>
+[-] <figcaption>    [-] <table>
+[-] <figure>        [-] <tfoot>
+[-] <footer>        [-] <ul>
+[-] <form>          [-] <video>
+[-] <h1>-<h6>
+
+
+Dari sekian banyak elemen HTML yang memiliki
+jenis tampilan default block, yang paling 
+umum digunakan adalah elemen <div>.
+
+
+<div>
+
+<div> adalah elemen html yang memiliki jenis 
+tampilan default block. Elemen ini sering 
+digunakan sebagai wadah (container) untuk elemen
+HTML lainnya. Atribut yang sering digunakan pada
+elemen ini adalah style, class, dan id. Saat 
+digunakan bersama dengan CSS, elemen ini 
+bisa digunakan untuk menta blok konten.
+
+Contoh:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Block</title>
+    </head>
+    <body>
+        <div id="header">
+            <h1>Judul Website</h1>
+            <img src="logo_website.jpg" alt="logo website">
+        </div>
+
+        <div id="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div id="content">
+            <div id="article_1">
+                <h1>Article Name</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet atque officiis delectus doloribus incidunt sunt.</p>
+            </div>
+        </div>
+
+        <div id="sidebar">
+            <h1>New Article</h1>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+            </ul>
+        </div>
+        
+        <div id="footer">
+            <p>Copyright - dikyindrah</p>
+        </div>
+    </body>
+</html>
+
+
+Inline
+
+Elemen HTML yang memiliki jenis tampilan inline akan 
+dimulai dalam satu baris, artinya mengikuti elemen 
+sebelum atau sesudahnya dan hanya akan memperluas 
+lebar sperlunya. Pada elemen jenis ini kita tidak 
+bisa mengatur margin atas dan bawah.
+
+Berikut adalah elemen HTML yang memiliki jenis 
+tampilan inline:
+
+[-] <a>             [-] <kbd>           [-] <time>
+[-] <abbr>          [-] <label>         [-] <tt>
+[-] <acronym>       [-] <map>           [-] <var>
+[-] <b>             [-] <object>
+[-] <bdo>           [-] <output>
+[-] <big>           [-] <q>
+[-] <br>            [-] <samp>
+[-] <button>        [-] <script>
+[-] <cite>          [-] <select>
+[-] <code>          [-] <small>
+[-] <dfn>           [-] <span>
+[-] <em>            [-] <strong>
+[-] <i>             [-] <sub>
+[-] <img>           [-] <sup>
+[-] <input>         [-] <textarea>
+
+
+Dari sekian banyak elemen HTML yang memiliki
+jenis tampilan default inline, yang paling 
+umum digunakan adalah elemen <span>.
+
+<span>
+
+<span> adalah elemen HTML yang memiliki jenis
+tampilan default inline. Elemen ini sering
+digunakan untuk menandai sebuah bagian dari 
+teks atau bagian dari elemen HTML. Atribut 
+yang sering digunakan pada elemen ini adalah
+style, class, dan id. Saat digunakan bersama 
+dengan CSS, elemen ini dapat digunakan untuk 
+menata bagian teks.
+
+Contoh:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inline</title>
+    </head>
+    <body>
+        <p>saya sedang belajar <span style="color: white; background-color: black;">HTML</span></p>
+    </body>
+</html>
+
+
+Referensi:
+
+1.  https://www.w3schools.com/html/html_blocks.asp
+2.  https://www.duniailkom.com/tutorial-text-html-perbedaan
+    -block-element-dengan-inline-element-tag-html/
