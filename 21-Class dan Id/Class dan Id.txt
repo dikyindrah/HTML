@@ -95,7 +95,7 @@ Id
 Untuk mendefinisikan id pada suatu elemen, kita hanya 
 perlu menuliskan atribut id pada elemen tersebut dan
 menuliskan nama id yang kita inginkan. Kemudian untuk 
-memanggilnya pada css kita cukup menulis tanda titik 
+memanggilnya pada css kita cukup menulis tanda pagar 
 kemudian menuliskan nama id yang kita berikan pada 
 elemen tersebut.
 
@@ -120,6 +120,18 @@ Contoh:
 </html>
 
 
+Id harus bersifat unik dan tidak bolek sama dengan 
+id yang sudah didefinisikan pada elemen lain. Jadi
+Satu elemen HTML hanya bisa memiliki satu nama id
+dan satu nama id hanya bisa didefinisikan pada satu 
+elemen saja.
+
+
+Perbedaan class dan id:
+
+Nama class dapat digunakan oleh beberapa elemen HTML
+sedangkan nama id hanya boleh digunakan oleh satu 
+elemen HTML.
 
 
 Referensi:
