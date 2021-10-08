@@ -151,7 +151,7 @@ Tag     	Deskripsi
 <aside> 	Mendefinisikan konten di luar konten utama halaman
 
 Tag ini menyederhanakan struktur kode HTML dan CSS yang kita 
-buat. Misalnya, untuk menentukan elemen navigasi dalam XHTML, 
+buat. Misalnya, untuk menentukan elemen navigasi dalam HTML, 
 kita biasanya akan menulis "<div class ="nav"> di halaman HTML 
 dan menentukan kelas yang disebut ".nav" di CSS. Di HTML5, kita 
 cukup memasukkan <nav> di HTML dan memberi gaya pada elemen itu 
